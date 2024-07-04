@@ -1,3 +1,6 @@
+
+
+
 /**
 * Template Name: Append
 * Template URL: https://bootstrapmade.com/append-bootstrap-website-template/
@@ -1029,6 +1032,12 @@ section,
 .about .icon-boxes .col-md-6:nth-child(4) .icon-box {
   margin-top: -40px;
 }
+
+
+.flor {
+  width: 60px;
+  height: 60px;
+  }
 
 @media (max-width: 768px) {
 
