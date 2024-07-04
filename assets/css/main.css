@@ -1444,7 +1444,7 @@ color: #FCF3E4
   margin: 30px auto 20px auto;
   width: 70px;
   height: 70px;
-  background: var(--accent-color);
+  /* background-image: url(assets/img/venta3.png); */
   border-radius: 50%;
   display: flex; 
   align-items: center;
@@ -1466,7 +1466,7 @@ color: #FCF3E4
   height: 86px;
   width: 86px;
   border-radius: 50%;
-  background: color-mix(in srgb, var(--accent-color), transparent 80%);
+  /* background: color-mix(in srgb, var(--accent-color), transparent 80%); */
   transition: all 0.3s ease-out 0s;
   transform: translateZ(-1px);
 }
@@ -1477,7 +1477,7 @@ color: #FCF3E4
   height: 102px;
   width: 102px;
   border-radius: 50%;
-  background: color-mix(in srgb, var(--accent-color), transparent 90%);
+  /* background: color-mix(in srgb, var(--accent-color), transparent 90%); */
   transition: all 0.3s ease-out 0s;
   transform: translateZ(-2px);
 }
@@ -1568,6 +1568,13 @@ color: #FCF3E4
     transform: scale(1.15);
   }
 }
+
+
+.venta {
+  width: 100px;
+  height: 100px;
+  }
+
 
 /*--------------------------------------------------------------
 # Faq Section
@@ -3062,11 +3069,6 @@ color: #FCF3E4
 
 
 
-/* detalle */
-
-.pag-detalle .features .features-item h3 {
-  color: #FF7D34
-}
 
 
 
@@ -3077,7 +3079,7 @@ color: #FCF3E4
 # Call To Action 3 Section
 --------------------------------------------------------------*/
 .call-to-action3 {
-  --background-color: #000000;
+  --background-color: #FFADD5;
   --default-color: #003C09;
   --contrast-color: #003C09;
   padding: 80px 0;
@@ -3139,3 +3141,198 @@ color: #FCF3E4
   background: var(--accent-color);
   border: 2px solid var(--accent-color);
 }
+
+
+
+
+
+
+/*--------------------------------------------------------------
+# Pricing Section
+--------------------------------------------------------------*/
+.pricing2 {
+  padding: 60px 0 120px 0;
+}
+
+.pricing2 {
+background-color: #003C09;
+
+}
+
+.pricing2 .section-title {
+  margin-bottom: 40px;
+}
+
+.pricing2 h2 {
+color: #FCF3E4
+}
+
+.pricing2 p {
+  color: #FCF3E4
+  }
+
+
+
+
+.pricing2 .pricing2-item {
+  box-shadow: 0 3px 20px -2px color-mix(in srgb, var(--default-color), transparent 90%);
+  padding: 60px 40px;
+  height: 100%;
+  position: relative;
+  border-radius: 15px;
+}
+
+
+.pricing2 .pricing2-item2 {
+  box-shadow: 0 3px 20px -2px color-mix(in srgb, var(--default-color), transparent 90%);
+  padding: 60px 150px;
+  height: 100%;
+  position: relative;
+  border-radius: 15px;
+}
+
+
+
+.pricing2 h3 {
+  font-weight: 600;
+  margin-bottom: 15px;
+  font-size: 20px;
+  text-align: center;
+  color: #E2FF3D
+}
+
+.pricing2 .icon {
+  margin: 30px auto 20px auto;
+  width: 70px;
+  height: 70px;
+  /* background-image: url(assets/img/venta3.png); */
+  border-radius: 50%;
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s;
+  transform-style: preserve-3d;
+}
+
+.pricing2 .icon i {
+  color: var(--background-color);
+  font-size: 28px;
+  transition: ease-in-out 0.3s;
+  line-height: 0;
+}
+
+.pricing2 .icon::before {
+  position: absolute;
+  content: "";
+  height: 86px;
+  width: 86px;
+  border-radius: 50%;
+  /* background: color-mix(in srgb, var(--accent-color), transparent 80%); */
+  transition: all 0.3s ease-out 0s;
+  transform: translateZ(-1px);
+}
+
+.pricing2 .icon::after {
+  position: absolute;
+  content: "";
+  height: 102px;
+  width: 102px;
+  border-radius: 50%;
+  /* background: color-mix(in srgb, var(--accent-color), transparent 90%); */
+  transition: all 0.3s ease-out 0s;
+  transform: translateZ(-2px);
+}
+
+.pricing2 h4 {
+  font-size: 48px;
+  color: var(--accent-color);
+  font-weight: 700;
+  font-family: var(--heading-font);
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.pricing2 h4 sup {
+  font-size: 28px;
+}
+
+.pricing2 h4 span {
+  color: color-mix(in srgb, var(--default-color), transparent 50%);
+  font-size: 18px;
+  font-weight: 400;
+  color: #fcf3e4
+}
+
+.pricing2 ul {
+  padding: 20px 0;
+  list-style: none;
+  /* color: color-mix(in srgb, var(--default-color), transparent 20%); */
+  color: #fcf3e4;
+  text-align: left;
+  line-height: 20px;
+}
+
+.pricing2 ul li {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+.pricing2 ul i {
+  color: #E2FF3D;
+  font-size: 24px;
+  padding-right: 3px;
+}
+
+.pricing2 ul .na {
+  color: color-mix(in srgb, var(--default-color), transparent 70%);
+}
+
+.pricing2 ul .na i {
+  color: color-mix(in srgb, var(--default-color), transparent 70%);
+}
+
+.pricing2 ul .na span {
+  text-decoration: line-through;
+}
+
+.pricing2 .buy-btn {
+  color: color-mix(in srgb, var(--default-color), transparent 20%);
+  background-color: var(--background-color);
+  display: inline-block;
+  padding: 8px 40px 10px 40px;
+  border-radius: 50px;
+  border: 1px solid color-mix(in srgb, var(--default-color), transparent 80%);
+  transition: none;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: var(--heading-font);
+  transition: 0.3s;
+}
+
+.pricing2 .buy-btn:hover {
+  background-color: var(--accent-color);
+  color: var(--contrast-color);
+}
+
+.pricing2 .featured {
+  z-index: 10;
+  border: 3px solid var(--accent-color);
+  border-top-left-radius: 150px;
+  border-bottom-right-radius: 150px; 
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
+@media (min-width: 992px) {
+  .pricing2 .featured {
+    transform: scale(1.15);
+  }
+}
+
+
+.venta {
+  width: 100px;
+  height: 100px;
+  }
+
