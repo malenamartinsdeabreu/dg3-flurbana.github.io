@@ -83,6 +83,11 @@ color: #003C09
 }
 
 
+.sub {
+  font-size: 16.5px;
+  font-weight: 600;
+  }
+
 
 
 h1,
@@ -1109,6 +1114,7 @@ section,
   padding-top: 40px;
 }
 
+
 .services .service-item:before {
   content: "";
   position: absolute;
@@ -1182,6 +1188,8 @@ section,
 /*--------------------------------------------------------------
 # Features Section
 --------------------------------------------------------------*/
+
+
 .features .features-item {
   color: color-mix(in srgb, var(--default-color), transparent 20%);
 }
