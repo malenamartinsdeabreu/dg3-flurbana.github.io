@@ -2172,6 +2172,14 @@ color: #FCF3E4
   }
 }
 
+
+.tel {
+  width: 120px;
+  
+  }
+
+
+
 /*--------------------------------------------------------------
 # Portfolio Details Section
 --------------------------------------------------------------*/
@@ -3367,6 +3375,7 @@ color: #FCF3E4
   justify-content: center;
 }
 
+
 .hero2 img {
   position: absolute;
   inset: 0;
@@ -3439,6 +3448,7 @@ color: #FCF3E4
   .hero2 h2 {
     font-size: 32px;
   }
+
 
   .hero2 p {
     font-size: 18px;
