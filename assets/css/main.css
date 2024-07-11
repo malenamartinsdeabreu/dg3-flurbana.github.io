@@ -432,6 +432,14 @@ h6 {
   --background-color: color-mix(in srgb, var(--default-color), transparent 96%);
   color: var(--default-color);
   background-color: #FFADD5;
+
+  background-image: url("../../assets/img/hero-bg.jpg") ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+
+
+
   font-size: 14px;
   padding-bottom: 50px;
   position: relative;
