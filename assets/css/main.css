@@ -3417,7 +3417,7 @@ color: #FCF3E4
   width: 100%;
   min-height: 100vh;
   position: relative;
-  padding: 160px 0 80px 0;
+  padding: 160px 0 80px 200px;
   display: flex;
   align-items: center;
   justify-content: center;
