@@ -147,8 +147,8 @@ h6 {
 
 .header .btn-getstarted:hover,
 .header .btn-getstarted:focus:hover {
-  color: var(--contrast-color);
-  background: color-mix(in srgb, var(--accent-color), transparent 15%);
+  color: #FCF3E4;
+  background: #FF7D34;
 }
 
 @media (max-width: 1200px) {
@@ -838,7 +838,10 @@ section,
   color: #003C09;
 }
 
-
+.hero .btn-primary:hover {
+  background-color: #FF7D34;
+  color: #FCF3E4;
+}
 
 
 
@@ -958,7 +961,8 @@ section,
 }
 
 .about .content .read-more:hover {
-  background: color-mix(in srgb, var(--accent-color), transparent 20%);
+  background: #FF7D34;
+  color: #FCF3E4;
   padding-right: 19px;
 }
 
@@ -1223,7 +1227,8 @@ section,
 }
 
 .features .features-item .btn-get-started:hover {
-  background-color: color-mix(in srgb, var(--accent-color), transparent 10%);
+    color: #FCF3E4;
+  background: #FF7D34;
 }
 
 .features .features-item ul {
@@ -2156,7 +2161,7 @@ color: #FCF3E4
 }
 
 .contact .php-email-form button[type=submit] {
-  background: var(--accent-color);
+  background: #FCF3E4;
   color: var(--contrast-color);
   border: 0;
   padding: 10px 30px;
