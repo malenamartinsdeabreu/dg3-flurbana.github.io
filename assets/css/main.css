@@ -433,20 +433,20 @@ h6 {
   color: var(--default-color);
   background-color: #FFADD5;
 
-  background-image: url("../../assets/img/hero-bg.jpg") ;
+  background-image: url("../../assets/img/final.jpg") ;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: bottom right;
+  background-position: center;
 
 
 
   font-size: 14px;
   padding-bottom: 50px;
   position: relative;
-  border-bottom-left-radius: 250px;
+  /* border-bottom-left-radius: 250px;
   border-bottom-right-radius: 0px;
   border-top-left-radius: 0px;
-  border-top-right-radius: 250px;
+  border-top-right-radius: 250px; */
 
 }
 
