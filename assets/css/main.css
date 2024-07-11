@@ -743,7 +743,15 @@ section,
 --------------------------------------------------------------*/
 .hero {
   --default-color: #ffffff;
-  --background-color: #00000000;
+  /* --background-color: #00000000; */
+
+  background-image: url("../../assets/img/hero-bg.jpg") ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+
+
+
   --heading-color: #ffffff;
   width: 100%;
   min-height: 100vh;
@@ -767,7 +775,7 @@ section,
 
 .hero:before {
   content: "";
-  background: color-mix(in srgb, var(--background-color), transparent 50%);
+  /* background: color-mix(in srgb, var(--background-color), transparent 50%); */
   position: absolute;
   inset: 0;
   z-index: 2;
@@ -776,6 +784,7 @@ section,
 .hero .container {
   position: relative;
   z-index: 3;
+  
 }
 
 .hero h2 {
@@ -3412,7 +3421,15 @@ color: #FCF3E4
 --------------------------------------------------------------*/
 .hero2 {
   --default-color: #ffffff;
-  --background-color: #00000000;
+  /* --background-color: #00000000; */
+
+  background-image: url("../../assets/img/Detalle/hero-bg.jpg") ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+
+
+
   --heading-color: #ffffff;
   width: 100%;
   min-height: 100vh;
@@ -3437,7 +3454,7 @@ color: #FCF3E4
 
 .hero2:before {
   content: "";
-  background: color-mix(in srgb, var(--background-color), transparent 50%);
+  /* background: color-mix(in srgb, var(--background-color), transparent 50%); */
   position: absolute;
   inset: 0;
   z-index: 2;
@@ -3531,7 +3548,7 @@ color: #FCF3E4
 
 .hero2 .section {
   color: var(--default-color);
-  background-color: var(--background-color);
+  background-color: var(--background-color), transparent 100%;
   padding-top: 30px;
 padding-bottom: 20px;
   scroll-margin-top: 98px;
