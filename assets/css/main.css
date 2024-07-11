@@ -943,6 +943,8 @@ section,
 --------------------------------------------------------------*/
 .about {
   --background-color: #003c09;
+  padding-top: 120px;
+  padding-bottom: 100px;
 }
 
 .about .content h3 {
@@ -1146,6 +1148,12 @@ section,
 /*--------------------------------------------------------------
 # Services Section
 --------------------------------------------------------------*/
+
+.services{
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
 .services .service-item {
   position: relative;
   padding-top: 40px;
@@ -1233,9 +1241,14 @@ section,
 --------------------------------------------------------------*/
 
 
+.features {
+  padding-top: 80px;
+}
+
 .features .features-item {
   color: color-mix(in srgb, var(--default-color), transparent 20%);
 }
+
 
 .features .features-item+.features-item {
   margin-top: 100px;
@@ -1268,7 +1281,7 @@ section,
 
 
 .features .container {
-  padding-left: 70px;
+  padding-left: 60px;
 }
 
 
@@ -1345,7 +1358,7 @@ section,
 .features .features-item .image-stack .stack-back {
   grid-column: 4/-1;
   grid-row: 1;
-  width: 100%;
+  width: 120%;
   z-index: 1;
 }
 
@@ -1360,6 +1373,13 @@ section,
 /*--------------------------------------------------------------
 # Portfolio Section
 --------------------------------------------------------------*/
+
+.portfolio {
+
+  padding-top: 80px;
+}
+
+
 .portfolio .portfolio-filters {
   padding: 0;
   margin: 0 auto 20px auto;
@@ -1468,7 +1488,7 @@ border-radius: 30px;
 # Pricing Section
 --------------------------------------------------------------*/
 .pricing {
-  padding: 60px 0 120px 0;
+  padding: 80px 0 120px 0;
 }
 
 .pricing {
@@ -1485,7 +1505,8 @@ color: #FCF3E4
 }
 
 .pricing p {
-  color: #FCF3E4
+  color: #FCF3E4;
+  padding-bottom: 20px;
   }
 
 
@@ -1639,6 +1660,7 @@ color: #FCF3E4
   border-bottom-right-radius: 150px; 
   border-top-right-radius: 0px;
   border-bottom-left-radius: 0px;
+  
 }
 
 @media (min-width: 992px) {
@@ -1657,6 +1679,11 @@ color: #FCF3E4
 /*--------------------------------------------------------------
 # Faq Section
 --------------------------------------------------------------*/
+
+.faq {
+  padding-top: 80px;
+}
+
 .faq .content h3 {
   font-weight: 400;
   font-size: 34px;
@@ -1752,7 +1779,7 @@ color: #FCF3E4
 
 
 .team .margen{
-  padding-bottom: 50px;
+  padding-bottom: 80px;
 }
 
 .team .member {
@@ -1907,6 +1934,8 @@ color: #FCF3E4
 --------------------------------------------------------------*/
 .testimonials {
   --background-color: #003C09;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 .testimonials .info h3 {
@@ -2095,6 +2124,13 @@ color: #FCF3E4
 /*--------------------------------------------------------------
 # Contact Section
 --------------------------------------------------------------*/
+
+.contact {
+
+  padding-bottom: 100px;
+
+}
+
 .contact .info-item {
   background: #FFADD5;
   padding: 30px;
@@ -3236,10 +3272,10 @@ color: #FCF3E4
 
 
 /*--------------------------------------------------------------
-# Pricing Section
+# Pricing2 Section
 --------------------------------------------------------------*/
 .pricing2 {
-  padding: 60px 0 120px 0;
+  padding: 80px 0 120px 0;
 }
 
 .pricing2 {
@@ -3256,7 +3292,8 @@ color: #FCF3E4
 }
 
 .pricing2 p {
-  color: #FCF3E4
+  color: #FCF3E4;
+  padding-bottom: 20px;
   }
 
 
