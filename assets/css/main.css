@@ -838,6 +838,13 @@ section,
     font-size: 32px;
   }
 
+.hero {
+  background-image: url("../../assets/img/hero1-mobile.jpg") ;
+  background-position: center bottom;
+
+}
+
+
   .hero p {
     font-size: 18px;
   }
@@ -3520,6 +3527,13 @@ color: #FCF3E4
 @media (max-width: 768px) {
   .hero2 h2 {
     font-size: 32px;
+  }
+
+  .hero2 {
+    background-image: url("../../assets/img/hero3-mobile.jpg") ;
+    background-position: center top;
+    padding: 550px 0 100px 10px;
+  
   }
 
 
