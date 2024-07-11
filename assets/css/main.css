@@ -435,6 +435,11 @@ h6 {
   font-size: 14px;
   padding-bottom: 50px;
   position: relative;
+  border-bottom-left-radius: 250px;
+  border-bottom-right-radius: 0px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 250px;
+
 }
 
 
@@ -543,7 +548,7 @@ h6 {
 .footer .copyright {
   padding-top: 25px;
   padding-bottom: 25px;
-  background-color: color-mix(in srgb, var(--default-color), transparent 95%);
+  /* background-color: color-mix(in srgb, var(--default-color), transparent 95%); */
   border-radius: 50px;
 }
 
