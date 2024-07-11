@@ -1509,7 +1509,12 @@ color: #FCF3E4
   padding-bottom: 20px;
   }
 
-
+.bordes-precio {
+  border-top-left-radius: 0px;
+  border-bottom-right-radius: 0px; 
+  border-top-right-radius: 150px;
+  border-bottom-left-radius: 150px;
+}
 
 
 .pricing .pricing-item {
@@ -1663,9 +1668,23 @@ color: #FCF3E4
   
 }
 
+
+.pricing .featured2 {
+  z-index: 10;
+  border: 3px solid var(--accent-color);
+  border-top-left-radius: 0px;
+  border-bottom-right-radius: 0px; 
+  border-top-right-radius: 150px;
+  border-bottom-left-radius: 150px;
+  
+}
+
+
+
+
 @media (min-width: 992px) {
   .pricing .featured {
-    transform: scale(1.15);
+    /* transform: scale(1.15); */
   }
 }
 
