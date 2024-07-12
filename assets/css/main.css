@@ -1358,7 +1358,7 @@ section,
 .features .features-item .image-stack .stack-back {
   grid-column: 4/-1;
   grid-row: 1;
-  width: 120%;
+  width: 100%;
   z-index: 1;
 }
 
