@@ -2167,7 +2167,7 @@ color: #FCF3E4
 }
 
 .contact .info-item {
-  background: #FFADD5;
+  /* background: #FFADD5; */
   padding: 30px;
 }
 
@@ -2177,6 +2177,8 @@ color: #FCF3E4
   border-bottom-right-radius: 0px;
   border-top-left-radius: 50px;
   border-top-right-radius: 50px;
+   /* background-color: #003C09; */
+   border: 2px solid var(--contrast-color);
 }
 
 .contact2 {
@@ -2184,6 +2186,8 @@ color: #FCF3E4
   border-bottom-right-radius: 50px;
   border-top-left-radius: 50px;
   border-top-right-radius: 50px;
+   /* background-color: #003C09; */
+   border: 2px solid var(--contrast-color);
 }
 
 .contact3 {
@@ -2191,6 +2195,8 @@ color: #FCF3E4
   border-bottom-right-radius: 50px;
   border-top-left-radius: 50px;
   border-top-right-radius: 0px;
+  /* background-color: #003C09; */
+  border: 2px solid var(--contrast-color);
 }
 
 .contact4 {
@@ -2198,6 +2204,8 @@ color: #FCF3E4
   border-bottom-right-radius: 50px;
   border-top-left-radius: 0px;
   border-top-right-radius: 50px;
+  /* background-color: #003C09; */
+  border: 2px solid var(--contrast-color);
 }
 
 
@@ -2211,6 +2219,7 @@ color: #FCF3E4
   font-size: 20px;
   font-weight: 700;
   margin: 20px 0 10px 0;
+  color: var(--contrast-color);
 }
 
 .contact .info-item p {
@@ -2218,13 +2227,18 @@ color: #FCF3E4
   line-height: 24px;
   font-size: 14px;
   margin-bottom: 0;
+  color: var(--contrast-color);
 }
 
 .contact .php-email-form {
-  background: #FFADD5;
+  background: #fcf3e4;
+  
+  /* border-style: inset;
+  border: 2px solid var(--contrast-color); */
   padding: 30px;
   height: 100%;
-  border-radius: 50px;
+  /* border-radius: 50px; */
+
 
 }
 
@@ -2277,7 +2291,8 @@ color: #FCF3E4
   border-radius: 30px;
   color: var(--default-color);
   background-color: color-mix(in srgb, var(--background-color), transparent 50%);
-  border-color: color-mix(in srgb, var(--default-color), transparent 80%);
+  /* border-color: color-mix(in srgb, var(--default-color), transparent 0%); */
+  border: 2px solid var(--contrast-color);
 }
 
 .contact .php-email-form input[type=text]:focus,
@@ -2289,11 +2304,11 @@ color: #FCF3E4
 .contact .php-email-form input[type=text]::placeholder,
 .contact .php-email-form input[type=email]::placeholder,
 .contact .php-email-form textarea::placeholder {
-  color: color-mix(in srgb, var(--default-color), transparent 70%);
+  color: var(--default-color);
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #FCF3E4;
+  background: #FFADD5;
   color: var(--contrast-color);
   border: 0;
   padding: 10px 30px;
@@ -2302,7 +2317,7 @@ color: #FCF3E4
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: color-mix(in srgb, var(--accent-color), transparent 20%);
+  background: #E2FF3D;
 }
 
 @keyframes animate-loading {
