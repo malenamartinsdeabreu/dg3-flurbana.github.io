@@ -1259,6 +1259,7 @@ section,
 
 .features {
   padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 .features .features-item {
@@ -1465,13 +1466,15 @@ border-radius: 30px;
   font-size: 18px;
   font-weight: 600;
   padding-right: 50px;
+  color: #FCF3E4;
 }
 
 .portfolio .portfolio-item .portfolio-info p {
-  color: color-mix(in srgb, var(--default-color), transparent 30%);
+  color: #FCF3E4;
   font-size: 14px;
   margin-bottom: 0;
   padding-right: 50px;
+  
 }
 
 .portfolio .portfolio-item .portfolio-info .preview-link,
@@ -1488,6 +1491,7 @@ border-radius: 30px;
 .portfolio .portfolio-item .portfolio-info .preview-link:hover,
 .portfolio .portfolio-item .portfolio-info .details-link:hover {
   color: var(--accent-color);
+
 }
 
 .portfolio .portfolio-item .portfolio-info .details-link {
@@ -1496,8 +1500,11 @@ border-radius: 30px;
 }
 
 .portfolio .portfolio-item:hover .portfolio-info {
+  background-color: color-mix(in srgb, #FF7D34, transparent 0%);
   opacity: 1;
   bottom: 0;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
 }
 
 /*--------------------------------------------------------------
@@ -3525,10 +3532,10 @@ color: #FCF3E4
   --default-color: #ffffff;
   /* --background-color: #00000000; */
 
-  background-image: url("../../assets/img/Detalle/hero-bg.jpg") ;
+  background-image: url("../../assets/img/Detalle/hero2.jpg") ;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: bottom right;
+  background-position: center right;
 
 
 
