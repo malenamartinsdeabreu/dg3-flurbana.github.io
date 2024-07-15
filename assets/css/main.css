@@ -2153,6 +2153,12 @@ color: #FCF3E4
 
 @media (max-width: 767px) {
 
+  .testimonials {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+
   .testimonials .testimonials-carousel,
   .testimonials .testimonials-slider {
     overflow: hidden;
@@ -3702,7 +3708,7 @@ color: #FCF3E4
   .hero2 {
     background-image: url("../../assets/img/hero3-mobile.jpg") ;
     background-position: right top;
-    padding: 450px 0 100px 10px;
+    padding: 450px 10px 100px 10px;
   
   }
 
