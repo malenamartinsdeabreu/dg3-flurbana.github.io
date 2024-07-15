@@ -3700,7 +3700,7 @@ color: #FCF3E4
   background-color: color-mix(in srgb, var(--accent-color), transparent 10%);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
   .hero2 h2 {
     font-size: 32px;
   }
