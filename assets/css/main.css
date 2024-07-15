@@ -865,7 +865,7 @@ section,
 .hero {
   background-image: url("../../assets/img/hero1-mobile.jpg") ;
   background-position: center bottom;
-  padding: 150px 0 320px 10px;
+  padding: 0px 0 320px 10px;
 }
 
 
@@ -1101,18 +1101,56 @@ section,
 
 @media (max-width: 768px) {
 
+
+  .about {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+
   .about .icon-boxes .col-md-6:nth-child(2) .icon-box,
   .about .icon-boxes .col-md-6:nth-child(4) .icon-box {
     margin-top: 0;
   }
-}
+
+
+  .about .content h2 {
+    font-size: 32px;
+    font-weight: 700;
+    position: relative;
+    /* text-align: center; */
+  }
+
+
+/* .about p {
+
+text-align: center;
+padding-left: 10px;
+padding-right: 10px;
+} */
+
+
+
+
+  }
+
+
 
 /*--------------------------------------------------------------
 # Stats Section
 --------------------------------------------------------------*/
 .stats {
   --default-color: #FCF3E4;
-  --background-color: #FCF3E4;
+  /* --background-color: #FCF3E4; */
+
+
+
+  background-image: url("../../assets/img/stats-bg.jpg") ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+
+
   position: relative;
   padding: 120px 0;
 }
@@ -1160,6 +1198,17 @@ section,
   font-weight: 700;
   color: color-mix(in srgb, var(--default-color), transparent 0%);
 }
+
+@media (max-width: 768px) {
+  .stats {
+background-image: url("../../assets/img/stats-mobile.jpg") ;
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+  }
+}
+
+
 
 /*--------------------------------------------------------------
 # Services Section
@@ -1355,6 +1404,13 @@ section,
   .features .features-item .features-img-bg {
     min-height: 300px;
   }
+
+  .features .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+
 }
 
 .features .features-item .features-img-bg img {
@@ -2169,7 +2225,7 @@ color: #FCF3E4
 
 .contact {
 
-  padding-bottom: 100px;
+  padding-bottom: 80px;
 
 }
 
@@ -2350,6 +2406,11 @@ color: #FCF3E4
 --------------------------------------------------------------*/
 .portfolio-details .portfolio-details-slider img {
   width: 100%;
+}
+
+.portfolio{
+padding-bottom: 80px;
+
 }
 
 .portfolio-details .swiper-wrapper {
@@ -3640,8 +3701,8 @@ color: #FCF3E4
 
   .hero2 {
     background-image: url("../../assets/img/hero3-mobile.jpg") ;
-    background-position: center top;
-    padding: 550px 0 100px 10px;
+    background-position: right top;
+    padding: 450px 0 100px 10px;
   
   }
 
